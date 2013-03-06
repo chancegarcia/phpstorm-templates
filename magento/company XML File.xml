@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!--
+#if(${Module})#end
+#parse("Company license.php")
+-->
+#if(${RootNode})#end
+#parse("xml root node.xml")
