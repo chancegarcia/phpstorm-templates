@@ -1,0 +1,6 @@
+In order to just parse the license into a new file, I'm using
+
+#if(${Module})#end
+#parse("license.php")
+
+At the Module prompt, I can enter nothing or anything but only the license will be parsed, so that I can do whatever is needed in the file and still have a license auto-filled in.
