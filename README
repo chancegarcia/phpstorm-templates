@@ -3,4 +3,4 @@ In order to just parse the license into a new file, I'm using
 #if(${Module})#end
 #parse("license.php")
 
-At the Module prompt, I can enter nothing or anything but only the license will be parsed, so that I can do whatever is needed in the file and still have a license auto-filled in.
+The file is needing the custom variable 'Module', so in the base file, I prompt for it and that value is passed to the license for parsing.
