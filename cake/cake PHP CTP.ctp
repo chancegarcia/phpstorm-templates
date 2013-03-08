@@ -1,6 +1,7 @@
 <?php
 #parse("chance license.php")
 #if(${Package})#end
+#if(${Subackage})#end
 /**
  * @var HtmlHelper       \$html
  * @var FormHelper  \$form
