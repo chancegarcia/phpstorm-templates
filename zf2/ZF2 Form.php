@@ -1,5 +1,6 @@
 <?php
 #if(${Package})#end
+#if(${Subpackage})#end
 #parse("chance license.php")
 
 namespace ${Namespace};
