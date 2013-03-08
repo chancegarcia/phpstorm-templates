@@ -1,4 +1,5 @@
 <?php
+#if(${Subackage})#end
 #parse("chance license.php")
 
 interface ${Package}_#if(${ExtraClassInfo} != "")${ExtraClassInfo}_#end${NAME}
