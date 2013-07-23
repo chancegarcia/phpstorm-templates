@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+#if(${Package})#end
+#if(${Subpackage})#end
+#parse("chance license.php")
+-->
+<phpunit bootstrap="Bootstrap.php">
+    <testsuites>
+        <testsuite name="${TestsuiteName}">
+            <directory>${TestDirectory}</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
+
