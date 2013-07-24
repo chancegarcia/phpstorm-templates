@@ -1,5 +1,5 @@
 <?php
-#parse("CompanyC license.php")
+#parse("Company license.php")
  
 class Company_${Module}_#if(${ExtraClassInfo} != "")${ExtraClassInfo}_#end${NAME}
     #if(${Extends} != "")extends ${Extends}#end
